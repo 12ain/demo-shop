@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小时光购物——给你不一样的购物体验</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/index.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body> 
+	<div id="header">
+	<audio class="bgm" autoplay src="media/bgm.mp3"></audio>
+      <div class="row login">
+    <div class="col-md-2"></div>
+    <div class="col-md-2">
+      <a href="login.html"><span class="glyphicon glyphicon-user">登录</span></a>
+      <a href="register.html"><span class="glyphicon glyphicon-flag">注册</span></a>
+    </div>
+    <div class="col-md-3">
+       <input type="text" class="form-control" placeholder="Search" style="width: 300px;">
+    </div>
+        <div class="col-md-1">
+      <input type="submit" class="btn btn-default" style="margin-left: -182px;" value="搜索"></input>
+    </div>
+    <div class="col-md-3">
+      <a href="#"><span class="glyphicon glyphicon-star">收藏本站</span></a>
+      <a href="#"><span class="glyphicon glyphicon-home">我的资料</span></a>
+      <a href="#"><span class="glyphicon glyphicon-tree-deciduous">我的订单</span></a>
+      <a href="#"><span class="glyphicon glyphicon-shopping-cart">购物车</span></a>
+    </div>
+   <div class="col-md-1"></div>
+  </div>
+
+  <br>
+	<div class="row" id="navlogo">
+      <div class="col-md-12">
+        <span class="nav-left">小时光购物</span>
+        <span class="nav-right">——你最好的购物伙伴<span>
+  </div>
+</div>
+</div>
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-2">
+		<h2 class="title1">商品分类</h2>
+		<div>
+		<span class="items">手机数码</span>
+		<ul class=" list-group"><br>
+			<a href="#"><li>手机</li></a>
+			<a href="#"><li>摄影</li></a>
+			<a href="#"><li>配件</li></a>
+			<a href="#"><li>电脑</li></a>
+			<a href="#"><li>平板</li></a>
+		</ul>
+		</div>
+		<span class="items">母婴玩具</span>
+			<ul class=" list-group"><br>
+				<a href="#"><li>童装</li></a>
+				<a href="#"><li>婴儿装</li></a>
+				<a href="#"><li>家居</li></a>
+				<a href="#"><li>套装</li></a>
+				<a href="#"><li>用品</li></a>
+			</ul>
+			<span class="items">美妆护肤</span>
+			<ul class=" list-group"><br>
+				<a href="#"><li>彩妆</li></a>
+				<a href="#"><li>面膜</li></a>
+				<a href="#"><li>套装</li></a>
+				<a href="#"><li>精华</li></a>
+				<a href="#"><li>精油</li></a>
+			</ul>
+			<span class="items">居家日用</span>
+			<ul class=" list-group"><br>
+				<a href="#"><li>床</li></a>			
+				<a href="#"><li>沙发</li></a>
+				<a href="#"><li>茶几</li></a>
+				<a href="#"><li>百货</li></a>
+				<a href="#"><li>食品饮料</li></a>
+			</ul>
+
+  </div>
+
+  <div class="col-md-4">
+  	<div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/page1.jpg" alt="First slide">
+     	</div>
+        <div class="item">
+            <img src="images/page4.jpg" alt="Second slide">
+      	</div>
+        <div class="item">
+            <img src="images/page1.jpg" alt="Third slide">
+		</div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+</div>
+  <div class="col-md-2">
+  	<a href=""><img src="images/page2.png" alt="" class="img-rounded"></a>
+  </div>
+  <div class="col-md-2"></div>
+</div>    
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-2">
+    <div class="interest">
+    <span style="font-size: 18px;font-weight: bold;">你可能感兴趣</span>
+    <ul style="list-style: none;">
+      <a href="#"><li>硬盘</li></a>
+      <a href="#"><li>手机</li></a>
+      <a href="#"><li>单反</li></a>
+      <a href="#"><li>平板</li></a>
+      <a href="#"><li>卡西欧</li></a>
+      <a href="#"><li>儿童自行车</li></a>
+      <br>
+    <br>
+    <br>
+    </ul>
+  </div>
+  <div class="videobox">
+  	<h3>ROG游戏手机</h3>
+  	<video src="media/good.mp4" controls></video>
+  </div>
+</div>
+  <div class="col-md-5">
+    <div class="caini"><h2>猜你喜欢</h2></div>
+
+    <div class="row">
+    <div class="col-sm-6 col-md-3">
+         <a href=""><div class="thumbnail">
+            <img src="images/things/1.jpg" 
+             alt="通用的占位符缩略图">
+            <div class="caption">
+                <p>全新 粉底液保湿遮瑕控油持久...</p>
+            </div>
+         </div></a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href=""><div class="thumbnail">
+            <img src="images/things/2.jpg" 
+            alt="通用的占位符缩略图">
+            <div class="caption">
+                <p>宝宝床蚊帐罩宫廷落地式新生儿童...</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href=""><div class="thumbnail">
+            <img src="images/things/11.jpg" 
+            alt="通用的占位符缩略图">
+            <div class="caption">
+                <p>移动联通电信4G全面屏手机 双卡双待...</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href=""><div class="thumbnail">
+            <img src="images/things/13.jpg" 
+            alt="通用的占位符缩略图">
+            <div class="caption">
+                <p>全新 华为 nova 青春版 nova2s正品手机...</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href=""><div class="thumbnail">
+            <img src="images/things/14.jpg" 
+            alt="通用的占位符缩略图">
+            <div class="caption">
+                <p>台式机电脑Lenovo/联想AIO 520 G3930T...</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href=""><div class="thumbnail">
+            <img src="images/things/12.jpg" 
+            alt="通用的占位符缩略图">
+            <div class="caption">
+                <p>全新 P410  M2000 3D建模图形处理主机...</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href=""><div class="thumbnail">
+            <img src="images/things/15.jpg" 
+            alt="通用的占位符缩略图">
+            <div class="caption">
+                <p> 专业数码单反相机旅游...</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href=""><div class="thumbnail">
+            <img src="images/things/16.jpg" 
+            alt="通用的占位符缩略图">
+            <div class="caption">
+                <p>联想台式机电脑天逸510Pro...</p>
+            </div>
+        </div></a>
+    </div>
+</div>
+  </div>
+  <div class="col-md-1">
+    
+  </div>
+  <div class="col-md-2"></div>
+</div> 
+<div class="text">
+	<header>
+		<img src="images/cp.jpg" alt="">
+	</header>
+	<p>评测 我们更专业 用户更放心</p>
+	<ul>
+		<li>
+			<img  class="tu" src="images/cp1.jpg" alt="">
+			<img class="tihuan" src="images/th1.png" alt="">
+		</li>
+		<li>
+			<img class="tu" src="images/cp2.jpg" alt="">
+			<img class="tihuan" src="images/th2.png" alt="">
+		</li>
+		<li>
+			<img class="tu" src="images/cp3.jpg" alt="">
+			<img class="tihuan" src="images/th3.png" alt="">
+		</li>
+		<li>
+			<img class="tu" src="images/cp4.jpg" alt="">
+			<img class="tihuan" src="images/th4.png" alt="">
+		</li>
+		<li>
+			<img class="tu" src="images/cp5.jpg" alt="">
+			<img class="tihuan" src="images/th5.png" alt="">
+		</li>
+		<li>
+			<img class="tu" src="images/cp6.jpg" alt="">
+			<img class="tihuan" src="images/th6.png" alt="">
+		</li>
+		<li>
+			<img class="tu" src="images/cp7.jpg" alt="">
+			<img class="tihuan" src="images/th7.png" alt="">
+		</li>
+		<li>
+			<img class="tu" src="images/cp8.jpg" alt="">
+			<img class="tihuan" src="images/th8.png" alt="">
+		</li>
+	</ul>
+</div>
+
+<div class="row">
+  <div class="col-md-2"></div>
+<div class="col-md-8 all-things">
+
+    <h2>所有宝贝都在这里</h2> <hr>
+
+    <div class="row">
+      <div class="col-md-3">
+      <h3>家用电器</h3>
+      <div class="things-list">
+        <ul>
+        <a href="#"><li>空调</li></a>
+        <a href="#"><li>冰箱</li></a>
+        <a href="#"><li>电视机</li></a>
+        <a href="#"><li>洗衣机</li></a>
+        <a href="#"><li>热水器</li></a>
+        <a href="#"><li>吹风机</li></a>
+        <a href="#"><li>剃须刀</li></a>
+        <a href="#"><li>风扇</li></a>
+        <a href="#"><li>加湿器</li></a>
+        <a href="#"><li>挂烫机</li></a>
+        </ul>
+      </div>
+    </div>
+      <div class="col-md-3">
+      <h3>居家日用</h3>
+      <div class="things-list">
+        <ul>
+        <a href="#"><li>床</li></a>
+        <a href="#"><li>沙发</li></a>
+        <a href="#"><li>沙发床</li></a>
+        <a href="#"><li>鞋柜</li></a>
+        <a href="#"><li>懒人沙发</li></a>
+        <a href="#"><li>茶几</li></a>
+        <a href="#"><li>衣柜</li></a>
+        <a href="#"><li>电视柜</li></a>
+        </ul>
+      </div>
+    </div>
+      <div class="col-md-3">
+      <h3>母婴</h3>
+      <div class="things-list">
+        <ul>
+        <a href="#"><li>童装</li></a>
+        <a href="#"><li>婴儿服</li></a>
+        <a href="#"><li>哈衣</li></a>
+        <a href="#"><li>套装</li></a>
+        <a href="#"><li>童鞋</li></a>
+        <a href="#"><li>新生儿礼盒</li></a>
+        <a href="#"><li>奶瓶</li></a>
+        <a href="#"><li>奶粉</li></a>
+        <a href="#"><li>婴儿推车</li></a>
+        <a href="#"><li>婴儿床</li></a>
+        </ul>
+      </div>
+    </div>
+      <div class="col-md-3">
+      <h3>美容/美颜/香水</h3>
+      <div class="things-list">
+        <ul>
+        <a href="#"><li>护肤</li></a>
+        <a href="#"><li>面膜</li></a>
+        <a href="#"><li>套装</li></a>
+        <a href="#"><li>精华</li></a>
+        <a href="#"><li>精油</li></a>
+        <a href="#"><li>眼霜</li></a>
+        <a href="#"><li>乳液</li></a>
+        <a href="#"><li>爽肤水</li></a>
+        <a href="#"><li>面霜</li></a>
+        <a href="#"><li>防晒</li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-md-3">
+      <h3>手机</h3>
+      <div class="things-list">
+        <ul>
+        <a href="#"><li>手机</li></a>
+        <a href="#"><li>手机壳</li></a>
+        <a href="#"><li>充电器</li></a>
+        <a href="#"><li>电池</li></a>
+        <a href="#"><li>耳机</li></a>
+        <a href="#"><li>数据线</li></a>
+        <a href="#"><li>苹果</li></a>
+        <a href="#"><li>诺基亚</li></a>
+        <a href="#"><li>HTC</li></a>
+        <a href="#"><li>三星</li></a>
+        <a href="#"><li>摩托罗拉</li></a>
+        <a href="#"><li>小米</li></a>
+        </ul>
+      </div>
+    </div>
+      <div class="col-md-3">
+      <h3>相机/摄像机</h3>
+      <div class="things-list">
+        <ul>
+        <a href="#"><li>数码相机</li></a>
+        <a href="#"><li>单反镜头</li></a>
+        <a href="#"><li>数码单反</li></a>
+        <a href="#"><li>摄像机</li></a>
+        <a href="#"><li>胶片相机</li></a>
+        <a href="#"><li>微单</li></a>
+        <a href="#"><li>佳能</li></a>
+        <a href="#"><li>尼康</li></a>
+        <a href="#"><li>索尼</li></a>
+        </ul>
+      </div>
+    </div>
+      <div class="col-md-3">
+      <h3>笔记本电脑/电脑周边</h3>
+      <div class="things-list">
+        <ul>
+        <a href="#"><li>笔记本</li></a>
+        <a href="#"><li>平板电脑</li></a>
+        <a href="#"><li>台式机整机</li></a>
+        <a href="#"><li>显示器</li></a>
+        <a href="#"><li>鼠标</li></a>
+        <a href="#"><li>CPU</li></a>
+        <a href="#"><li>主板</li></a>
+        <a href="#"><li>显卡</li></a>
+        <a href="#"><li>内存</li></a>
+        <a href="#"><li>硬盘</li></a>
+        <a href="#"><li>电源</li></a>
+        </ul>
+      </div>
+    </div>
+      <div class="col-md-3">
+      <h3>随身影音娱乐</h3>
+      <div class="things-list">
+        <ul>
+        <a href="#"><li>MP3</li></a>
+        <a href="#"><li>MP4</li></a>
+        <a href="#"><li>MP5</li></a>
+        <a href="#"><li>录音笔</li></a>
+        <a href="#"><li>Wii</li></a>
+        <a href="#"><li>PSP</li></a>
+        <a href="#"><li>PS3</li></a>
+        <a href="#"><li>xbox</li></a>
+        <a href="#"><li>游戏软件</li></a>
+        <a href="#"><li>苹果</li></a>
+        <a href="#"><li>索尼视听</li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="col-md-2"></div>
+  </div>
+  
+
+<div class="footer">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+        <h3><img src="images/button/1.png" alt="1">消费者保障</h3>
+        <span class="footer-font">
+          保障范围 <br> 退货退款流程 <br>服务中心 <br> 更多特色服务
+        </span>
+      </div>
+      <div class="col-md-2">
+        <h3><img src="images/button/2.png" alt="2">新手上路
+      </h3>
+    <span class="footer-font">新手专区 <br> 消费警示 <br> 交易安全 <br> 24小时在线帮助</span></div>
+      <div class="col-md-2">
+        <h3><img src="images/button/3.png" alt="3">付款方式</h3>
+      <span class="footer-font">快捷支付 <br> 信用卡<br>  余额宝<br>
+蚂蚁花呗 <br> 货到付款</span></div>
+      <div class="col-md-2">
+        <h3><img src="images/button/4.png" alt="4">品质保证</h3>
+        <span class="footer-font">品质护航购物放心<br>
+15天无理由退换货保证</span></div>
+      
+    <div class="col-md-2"></div>
+        </div>
+  </div>
+	<div class="banquan">
+		<a href="#">本页面版权归小时光个人所有，仅供学习和交流</a>
+	</div> 	
+</body>
+</html>

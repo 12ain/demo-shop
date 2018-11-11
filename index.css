@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-10-11 11:29:03
+ * @version $Id$
+ */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+}
+a{
+	color:none;
+	text-decoration:none;
+	list-style:none;
+
+}
+a:hover{
+	color: #FF7F7FFF;
+}
+.login{
+height: 35px;
+	background-color: #424242FF;
+	line-height:35px;
+}
+.login a{
+	color: #FFFFFFFF;
+	margin: 3px;
+}
+.login a:hover{
+	color: #FF0000FF;
+}
+.login-02{
+	/*position:relative;
+	left: 1200px;
+	top:-12px;*/
+}
+.title1{
+	padding: 10px;
+	margin:0;
+	background-color: #FFD800FF;
+	color: white;
+	text-align: center;
+}
+
+.list-group li{
+	display: inline-block;
+	color: black;
+}
+.list-group li:hover{
+	color: #00FF90FF;
+}
+#navlogo{
+	height: 120px;
+	background-color: #FFD800FF;
+	font-size:35px; 
+	line-height:120px;
+	color: #FFFFFFFF;
+}
+.items{
+	font-size:20px;
+}
+.interest{
+	border-style: solid;
+	border-width: 1px;
+	height:250px;
+	width:230px;
+}
+.interest li{
+	color: black;
+	font-size: 15px;
+	background-color: #80808080;
+	display: inline-block;
+	padding: 2px;
+	margin: 15px;
+	border-radius:15px;
+}
+.interest li:hover{
+	background-color: #7FC9FFFF;
+}
+.caini{
+	border-width: 1px;
+	border-color: #C0C0C0FF;
+	border-style: solid;
+
+}
+.all-things{
+	width: 1200px;
+	/*border-style: solid;
+	border-width: 1px;*/
+}
+.things-list{
+	/*border-style: solid;
+	border-width: 1px;*/
+	padding: 5px;
+}
+.all-things div{
+	display: inline-block;
+	/*border-style: solid;
+	border-width: 1px;*/
+}
+.all-things li{
+	float:left;
+	color:#636363FF;
+	/*border-style: solid;
+	border-width: 1px;*/
+	padding: 2px;
+	margin: 4px;
+}
+.all-things-part{
+	width: 300px;
+	height: 200px;
+	border-style: solid;
+	border-width: 1px;
+}
+.foot{
+	height: 200px;
+	background-color: #FFE500FF;
+}
+.foot div div
+{
+	display: inline-block;
+	padding: 20px;
+}
